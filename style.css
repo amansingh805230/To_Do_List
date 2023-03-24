@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Roboto+Condensed&family=Rubik&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+body{
+    background-color: rgb(15, 93, 228);
+}
+
+nav{
+    height: 8vh;
+    width: 100%;
+    color:whitesmoke;
+    border: 2px solid rgb(252, 253, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(6, 169, 61);
+}
+
+.box1{
+    height: 50px;
+    width: 600px;
+    background-color: #94f483;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#name{
+    width: 80%;
+    border: 1px solid rgb(15, 93,228);
+    height: 25px;
+    padding: 5px;
+    display: block;
+}
+#push{
+    width: 60px;
+    border: 1px solid rgb(15, 93,228);
+    height: 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: rgb(6, 169, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+.box2{
+    margin-top: 17px;
+    margin-left: 20px;
+    
+
+}
+.get{
+    height: 450px;
+    width: 600px;
+    background-color: #94f483;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(3, 208, 240);
+    cursor: pointer;
+    background-color: rgb(15, 93, 228);;
+    height: 35px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    color: white;
+}
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #ff8604;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 80%;
+    width: 20px;
+}
